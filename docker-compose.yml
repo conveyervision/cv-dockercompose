@@ -10,7 +10,7 @@ services:
     restart: unless-stopped
 
   web:
-    image: docker.gensosekai.com/converyerui:latest
+    image: docker.gensosekai.com/conveyerui:latest
     env_file:
       - .webenv
     ports:
