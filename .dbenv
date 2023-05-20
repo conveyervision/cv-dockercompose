@@ -1,0 +1,3 @@
+POSTGRES_DB=cvdb
+POSTGRES_USER=cvdb-user
+POSTGRES_PASSWORD=cvdb-pw
