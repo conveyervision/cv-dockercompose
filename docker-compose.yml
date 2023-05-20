@@ -5,8 +5,6 @@ services:
     image: postgres
     env_file:
       - .dbenv
-    volumes:
-      - postgres_data:/var/lib/postgresql/data/
     restart: unless-stopped
 
   web:
@@ -18,7 +16,3 @@ services:
     depends_on:
       - db
     restart: unless-stopped
-
-volumes:
-  postgres_data:
-
